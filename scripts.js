@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('.go').click(function(){
+	$('.go').click(function(event){
 		event.preventDefault();
 		let per = $('#third').val();
 		let link = new URL(per);
